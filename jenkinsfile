@@ -17,7 +17,7 @@ pipeline {
         stage('check repo') {
             steps {
                 echo 'Cloning the gitHub repo'
-                git branch: 'main', url: 'https://github.com/KaranManhas22/Frontend-test.git'
+                git branch: 'main', url: 'https://github.com/KaranManhas22/Front-KIZA.git'
             }
         }
 
